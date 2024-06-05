@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="935f25f2-5cdd-4db1-b54f-3d79175bc7fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rasp_qt.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example1_button&amp;page/page2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example1_button&amp;page/page_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example1_button&amp;page/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example1_button&amp;page/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example1_button&amp;page/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example2_beautify/button_img/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example2_beautify/button_img/p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example2_beautify/button_img/p2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example2_beautify/button_img/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example2_beautify/button_img/p4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example2_beautify/button_img/p5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example2_beautify/button_img/p6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example2_beautify/button_img/p7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example2_beautify/button_img/p8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example2_beautify/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example2_beautify/page2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example2_beautify/resources.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example2_beautify/test.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2hRI0O727oLYHxGJo06cOF3G38J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "F:/Files/Research/detection/new/qt/project/rasp_qt/example2_beautify/button_img",
+    "settings.editor.selected.configurable": "preferences.externalTools"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Files\Research\detection\new\qt\project\rasp_qt\example2_beautify\button_img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Files\Research\detection\new\qt\project\rasp_qt\example2_beautify" />
+      <recent name="F:\Files\Research\detection\new\qt\project\rasp_qt\example1_button&amp;page" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="935f25f2-5cdd-4db1-b54f-3d79175bc7fd" name="Changes" comment="" />
+      <created>1717550238503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717550238503</updated>
+    </task>
+    <servers />
+  </component>
+</project>
