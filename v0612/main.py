@@ -26,7 +26,6 @@ class MainUi(QtWidgets.QMainWindow):
         self.left_widget.setObjectName('left_widget')
         self.left_layout = QtWidgets.QGridLayout()  # 创建左侧部件的网格布局层
         self.left_widget.setLayout(self.left_layout)  # 设置左侧部件布局为网格
-        self.left_widget.setFixedWidth(100)
 
         self.right_widget = QtWidgets.QWidget()  # 创建右侧部件
         self.right_widget.setObjectName('right_widget')
@@ -44,10 +43,10 @@ class MainUi(QtWidgets.QMainWindow):
 
         self.left_label_1 = QtWidgets.QPushButton("测试项目")
         self.left_label_1.setObjectName('left_label')
-        self.left_label_2 = QtWidgets.QPushButton("外设控制")
+        self.left_label_2 = QtWidgets.QPushButton("开发信息")
         self.left_label_2.setObjectName('left_label')
-        self.left_label_3 = QtWidgets.QPushButton("开发信息")
-        self.left_label_3.setObjectName('left_label')
+        '''self.left_label_3 = QtWidgets.QPushButton("联系与帮助")
+        self.left_label_3.setObjectName('left_label')'''
 
         self.left_button_1 = QtWidgets.QPushButton(qtawesome.icon('fa.paper-plane', color='white'), "测DNA")
         self.left_button_1.setObjectName('left_button')
@@ -57,10 +56,8 @@ class MainUi(QtWidgets.QMainWindow):
         self.left_button_3.setObjectName('left_button')
         self.left_button_4 = QtWidgets.QPushButton(qtawesome.icon('fa.star-half-full', color='white'), "Ion Tolerance")
         self.left_button_4.setObjectName('left_button')
-        self.left_button_5 = QtWidgets.QPushButton(qtawesome.icon('fa.bolt', color='white'), "外设控制")
+        self.left_button_5 = QtWidgets.QPushButton(qtawesome.icon('fa.child', color='white'), "开发人员")
         self.left_button_5.setObjectName('left_button')
-        self.left_button_6 = QtWidgets.QPushButton(qtawesome.icon('fa.child', color='white'), "开发人员")
-        self.left_button_6.setObjectName('left_button')
         self.left_xxx = QtWidgets.QPushButton(" ")
         # 图标修改https://fontawesome.com/v4/icons/
 
@@ -75,8 +72,6 @@ class MainUi(QtWidgets.QMainWindow):
         self.left_layout.addWidget(self.left_button_4, 5, 0, 1, 3)
         self.left_layout.addWidget(self.left_label_2, 6, 0, 1, 3)
         self.left_layout.addWidget(self.left_button_5, 7, 0, 1, 3)
-        self.left_layout.addWidget(self.left_label_3, 8, 0, 1, 3)
-        self.left_layout.addWidget(self.left_button_6, 9, 0, 1, 3)
         '''self.left_layout.addWidget(self.left_button_6, 8, 0, 1, 3)
         self.left_layout.addWidget(self.left_label_3, 9, 0, 1, 3)
         self.left_layout.addWidget(self.left_button_7, 10, 0, 1, 3)
