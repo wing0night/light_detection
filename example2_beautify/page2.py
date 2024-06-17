@@ -2,7 +2,6 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5 import QtCore, QtGui, QtWidgets
-import page3
 
 
 class DNA_Page(QWidget):
@@ -108,27 +107,10 @@ class DNA_Page(QWidget):
         # 最后，在尾端添加弹簧，以至于布局呈现靠左而不是居中
         self.hLayout.addStretch()
 
-        self.stackedWidget_func = QtWidgets.QStackedWidget(self)  # QStackedWidget表示多分页的窗口
-        self.stackedWidget_func.setObjectName("stackedWidget_func")
-        self.stackedWidget_func.setGeometry(QtCore.QRect(220, 80, 700, 600))
-        self.stackedWidget_func.setStyleSheet("QWidget{background-color:rgb(255, 255, 255);border:none}")
-
-        # 2.2 创建分页对象，并载入分页
-        self.page_0 = page3.Std_Page()
-        self.stackedWidget_func.addWidget(self.page_0)
-        '''self.page_2 = page3.RNA_Page()
-        self.stackedWidget_func.addWidget(self.page_2)
-        self.page_3 = page3.Protein_Page()
-        self.stackedWidget_func.addWidget(self.page_3)
-        self.page_4 = page3.IonTolerance_Page()
-        self.stackedWidget_func.addWidget(self.page_4)
-        self.page_5 = page3.Development_Page()
-        self.stackedWidget_func.addWidget(self.page_5)'''
-
 
 
     def slot_a1(self):
-        self.stackedWidget_func.setCurrentIndex(0)  # 将多页面窗口切换至页面序号0
+        print("slot_a1 ")
 
     def slot_a2(self):
         print("slot_a2 ")
