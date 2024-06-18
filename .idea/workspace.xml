@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="935f25f2-5cdd-4db1-b54f-3d79175bc7fd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rasp_qt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rasp_qt.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example2_beautify/page2.py" beforeDir="false" afterPath="$PROJECT_DIR$/example2_beautify/page2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example2_beautify/page3.py" beforeDir="false" afterPath="$PROJECT_DIR$/example2_beautify/page3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1717550238503</updated>
       <workItem from="1718638678883" duration="1683000" />
-      <workItem from="1718688352357" duration="618000" />
+      <workItem from="1718688352357" duration="5799000" />
     </task>
     <servers />
   </component>

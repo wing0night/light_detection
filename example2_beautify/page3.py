@@ -2,8 +2,9 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtWidgets import QApplication, QWidget, QGridLayout, QDoubleSpinBox, QPushButton
 
-class Std_Page(QWidget):
+class std_Page(QWidget):
     def __init__(self):
         super().__init__()
         # 创建水平布局
@@ -18,6 +19,53 @@ class Std_Page(QWidget):
         self.font.setBold(1)  # 设置为粗体
         self.font.setPixelSize(24)  # 字体大小
 
+        '''app = QApplication([])
+        window = QWidget()
+
+        grid_layout = QGridLayout(window)'''
+
+        # 定义一个数组来存储输入的浮点数
+        float_numbers = []
+
+        # 添加浮点数输入框和测定按钮到表格布局中
+        for row in range(6):
+            spin_box = QDoubleSpinBox()
+            button = QPushButton("测定")
+
+            # 将测定按钮与对应的浮点数输入框关联
+            button.clicked.connect(lambda checked, row=row: measure_value(row))
+
+            self.hLayout.addWidget(spin_box, row, 0)
+            self.hLayout.addWidget(button, row, 1)
+
+            # 将浮点数输入框添加到数组中
+            float_numbers.append(spin_box)
+
+        # 测定按钮的槽函数，将输入的浮点数添加到数组中
+        def measure_value(row):
+            value = float_numbers[row].value()
+            float_numbers[row].setEnabled(False)  # 禁用输入框，防止重复测定
+            print("测定结果：", value)
+            for row in range(6):
+                print(float_numbers[row].value())
+
+        self.setLayout(self.hLayout)
+        self.show()
+
+class sample_Page(QWidget):
+    def __init__(self):
+        super().__init__()
+        # 创建水平布局
+        self.hLayout = QHBoxLayout(self)
+        self.hLayout.setContentsMargins(0, 0, 0, 0)  # 设置水平布局在Widget内上下左右的间距
+        self.hLayout.setSpacing(10)  # 设置间距
+        self.hLayout.setDirection(0)  # 自左向右的布局
+        self.hLayout.addSpacing(10)  # 左侧空隙
+
+        self.font = QFont()
+        self.font.setFamily("黑体")
+        self.font.setBold(1)  # 设置为粗体
+        self.font.setPixelSize(24)  # 字体大小
 
 
 

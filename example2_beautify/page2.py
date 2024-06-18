@@ -108,13 +108,27 @@ class DNA_Page(QWidget):
         # 最后，在尾端添加弹簧，以至于布局呈现靠左而不是居中
         self.hLayout.addStretch()
 
+        # 2.创建三级菜单栏（和二级菜单在同一个位置）
+        # 2.1 创建多分页窗口
+        self.stackedWidget2_func = QtWidgets.QStackedWidget(self)  # QStackedWidget表示多分页的窗口
+        self.stackedWidget2_func.setObjectName("stackedWidget_func")
+        self.stackedWidget2_func.setGeometry(QtCore.QRect(220, 80, 700, 600))
+        self.stackedWidget2_func.setStyleSheet("QWidget{background-color:rgb(255, 255, 255);border:none}")
 
+        # 2.2 创建分页对象，并载入分页
+        self.page_1 = page3.std_Page()  # 测标曲界面（表格）
+        self.stackedWidget2_func.addWidget(self.page_1)
+        self.page_2 = page3.sample_Page()  # 测样品界面（输出处理后的图表和统计参数）
+        self.stackedWidget2_func.addWidget(self.page_2)
+        '''self.page_3 = page2.Protein_Page()
+        self.stackedWidget_func.addWidget(self.page_3)'''
 
+    # 以下定义二级菜单按钮响应函数
     def slot_a1(self):
-        print("slot_a1 ")
+        self.stackedWidget2_func.setCurrentIndex(0)  # 将多页面窗口切换至页面序号0
 
     def slot_a2(self):
-        print("slot_a2 ")
+        self.stackedWidget2_func.setCurrentIndex(1)  # 将多页面窗口切换至页面序号1
 
     def slot_a3(self):
         print("slot_a3 ")
