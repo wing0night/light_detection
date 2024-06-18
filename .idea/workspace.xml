@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="935f25f2-5cdd-4db1-b54f-3d79175bc7fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/example2_beautify/page3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example2_beautify/test_rsp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v0612/button_img/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v0612/button_img/p1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v0612/button_img/p2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v0612/button_img/p3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v0612/button_img/p4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v0612/button_img/p5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v0612/button_img/p6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v0612/button_img/p7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v0612/button_img/p8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v0612/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v0612/page2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rasp_qt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rasp_qt.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example2_beautify/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example2_beautify/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example2_beautify/page2.py" beforeDir="false" afterPath="$PROJECT_DIR$/example2_beautify/page2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example2_beautify/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/example2_beautify/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +41,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "F:/Files/Research/detection/new/qt/project/rasp_qt/v0612",
-    "settings.editor.selected.configurable": "preferences.externalTools"
+    "last_opened_file_path": "F:/Github/nonebot-plugin-ocgbot-v2-0.2.10.0",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.externalTools",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -72,7 +64,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17890.14" />
+        <option value="bundled-python-sdk-5b207ade9991-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17890.14" />
       </set>
     </attachedChunks>
   </component>
@@ -84,7 +77,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717550238503</updated>
+      <workItem from="1718638678883" duration="1683000" />
+      <workItem from="1718688352357" duration="618000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

@@ -2,6 +2,7 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5 import QtCore, QtGui, QtWidgets
+import page3
 
 
 class DNA_Page(QWidget):
@@ -377,7 +378,7 @@ class Development_Page(QWidget):
         self.hLayout.addStretch()
 
     def slot_a1(self):
-        print("slot_c1 ")
+        self.stackedWidget_func.setCurrentIndex(0)  # 将多页面窗口切换至页面序号0
 
     def slot_a2(self):
         print("slot_c2 ")
