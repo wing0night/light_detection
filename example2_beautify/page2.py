@@ -118,17 +118,20 @@ class DNA_Page(QWidget):
         # 2.2 创建分页对象，并载入分页
         self.page_1 = page3.std_Page()  # 测标曲界面（表格）
         self.stackedWidget2_func.addWidget(self.page_1)
-        self.page_2 = page3.sample_Page()  # 测样品界面（输出处理后的图表和统计参数）
-        self.stackedWidget2_func.addWidget(self.page_2)
+        '''self.page_2 = page3.sample_Page()  # 测样品界面（输出处理后的图表和统计参数）
+        self.stackedWidget2_func.addWidget(self.page_2)'''
         '''self.page_3 = page2.Protein_Page()
         self.stackedWidget_func.addWidget(self.page_3)'''
+
+
 
     # 以下定义二级菜单按钮响应函数
     def slot_a1(self):
         self.stackedWidget2_func.setCurrentIndex(0)  # 将多页面窗口切换至页面序号0
 
     def slot_a2(self):
-        self.stackedWidget2_func.setCurrentIndex(1)  # 将多页面窗口切换至页面序号1
+        print("slot_a2 ")
+        #self.stackedWidget2_func.setCurrentIndex(1)  # 将多页面窗口切换至页面序号1
 
     def slot_a3(self):
         print("slot_a3 ")
